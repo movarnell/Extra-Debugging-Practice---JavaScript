@@ -1,0 +1,71 @@
+JavaScript Debugging Assignment
+Instructions
+Your task is to identify and fix the errors in the provided JavaScript code snippets. Each snippet contains a common error or typo that new developers often encounter. Carefully read through each snippet and try to spot the mistake. Once you've identified the error, correct it in a way that makes the code function as intended.
+
+Tips for Debugging
+Read the Code Carefully: Sometimes, errors are simply typos or syntax mistakes.
+Understand the Logic: Make sure you understand what the code is trying to achieve.
+Check Console Logs: Use console.log() to print values and understand the flow of execution.
+Refer to Documentation: If unsure about a function or syntax, refer to JavaScript documentation.
+
+Solutions:
+
+Problem 1
+Error: Missing braces {} around the if block.
+Solution: Add braces to enclose the statement within the if block.
+
+Problem 2
+Error: Assignment operator = used instead of equality == or strict equality ===.
+Solution: Replace = with ===.
+
+Problem 3
+Error: Missing semicolons at the end of statements.
+Solution: Add a semicolon after each statement.
+
+Problem 4
+Error: Variable x is not accessible outside the function.
+Solution: Move the console.log(x) inside the function or declare x outside of it.
+
+Problem 5
+Error: The loop will run indefinitely because i is decreasing.
+Solution: Change i-- to i++.
+
+Problem 6
+Error: y is used before it's declared.
+Solution: Declare y before using it.
+
+Problem 7
+Error: Strict equality === does not perform type coercion.
+Solution: Use == for type coercion or convert x to a number.
+
+Problem 8
+Error: Function sum called with one argument instead of two.
+Solution: Provide the required number of arguments.
+
+Problem 9
+Error: Function does not return a value.
+Solution: Add a return statement.
+
+Problem 10
+Error: String not properly closed with matching quotes.
+Solution: Close the string properly.
+
+Problem 11
+Error: Equality operator == used, which can lead to type coercion issues.
+Solution: Use === and convert string to number or vice versa.
+
+Problem 12
+Error: Property accessed using incorrect case or syntax.
+Solution: Correct the property name and syntax.
+
+Problem 13
+Error: Loop runs one time too many, causing an undefined value.
+Solution: Change the condition to i < array.length.
+
+Problem 14
+Error: Variable x declared twice using let.
+Solution: Remove the second declaration.
+
+Problem 15
+Error: Function called with a parameter, but defined without parameters.
+Solution: Define the function to accept a parameter.
