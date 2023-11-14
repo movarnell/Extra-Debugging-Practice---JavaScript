@@ -1,3 +1,4 @@
+// Do your best to not look at the code in the other files so that you learn how to debug code like a pro!
 // Problem 1
 if (x > 10)
     console.log("x is greater than 10");
